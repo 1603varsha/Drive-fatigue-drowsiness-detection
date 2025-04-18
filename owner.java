@@ -71,8 +71,6 @@ public class owner {
 		panel_1.setLayout(new CardLayout(0, 0));
 		
 		
-		
-		
 		JPanel panel_2 = new JPanel();
 		panel_1.add(panel_2, "name_1302241853745023");
 		panel_2.setLayout(null);
@@ -163,9 +161,6 @@ public class owner {
 				 String pass=rs.getString("passw");
 
 					
-
-					
-				
 				 table_3.addRow(new Object[] {id, name, gender, dob, address, phone, license, uname, pass});
 				 
 				 i++;
@@ -257,9 +252,7 @@ public class owner {
 		
 		
 		
-		
-		
-		
+
 		JLabel lblNewLabel_1 = new JLabel("New label");
 		lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\Jasmine\\Pictures\\Saved Pictures\\or.jpg"));
 		lblNewLabel_1.setBounds(0, 0, 1372, 20);
@@ -323,8 +316,6 @@ public class owner {
 		lblNewLabel.setBounds(0, 0, 1372, 101);
 		panel.add(lblNewLabel);
 		
-		
-
 		
 		JLabel lblNewLabel_3 = new JLabel("New label");
 		lblNewLabel_3.setIcon(new ImageIcon("C:\\Users\\Jasmine\\Pictures\\Saved Pictures\\119061.jpg"));
